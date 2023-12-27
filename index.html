@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title> 손세영 - 록시땅L'OCCITANE </title>
@@ -26,6 +27,7 @@
         new WOW().init();
     </script>
 </head>
+
 <body>
     <div id="wrap">
         <header>
@@ -177,37 +179,37 @@
                         <div class="banner">
                             <div class="banner_slider">
                                 <div class="items">
-                                    <p><img src="./images/slick1.png" alt="slick1"></p>
+                                    <p><img src="./images/slick1.jpg" alt="slick1"></p>
                                     <strong>캐시출첵</strong>
                                     <span>출석 체크 하고 이벤트 캐시를 쌓아봐요</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick2.png" alt="slick2"></p>
+                                    <p><img src="./images/slick2.jpg" alt="slick2"></p>
                                     <strong>왓츠 인 마이 장바구니</strong>
                                     <span>내 장바구니를 공개하고 상품을 받아봐요</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick3.png" alt="slick3"></p>
+                                    <p><img src="./images/slick3.jpg" alt="slick3"></p>
                                     <strong>록시땅 랜덤 기프트</strong>
                                     <span>매주 랜덤 기프트에 도전해봐요</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick4.png" alt="slick4"></p>
+                                    <p><img src="./images/slick4.jpg" alt="slick4"></p>
                                     <strong>인기 아이템 고르기</strong>
                                     <span>매달 진행 되는 인기 상품 투표</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick5.png" alt="slick5"></p>
+                                    <p><img src="./images/slick5.jpg" alt="slick5"></p>
                                     <strong>SNS 공유 이벤트</strong>
                                     <span>SNS에 록시땅을 공유하고 이벤트 참여해봐요</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick6.png" alt="slick6"></p>
+                                    <p><img src="./images/slick6.jpg" alt="slick6"></p>
                                     <strong>설문조사 이벤트</strong>
                                     <span>간단한 설문조사에 참여하고 혜택을 얻어봐요</span>
                                 </div>
                                 <div class="items">
-                                    <p><img src="./images/slick7.png" alt="slick7"></p>
+                                    <p><img src="./images/slick7.jpg" alt="slick7"></p>
                                     <strong>친구와 함께</strong>
                                     <span>친구와 함께 이벤트를 즐겨봐요</span>
                                 </div>
@@ -260,6 +262,16 @@
                     </a>
                 </div>
             </section>
+            <div id="map" class="wow animate__animated animate__fadeInUp">
+                <div class="text">
+                    <h2 class="title"> 매장 위치 안내 </h2>
+                    <p>록시땅 매장 위치를 한 눈에 확인해요</p>
+                </div>
+                <div class="map_view">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60407.74282530678!2d126.9764608540124!3d37.27638524762532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b431c48e5f80d%3A0xf2d7d044926419af!2z66Gd7Iuc65WF!5e0!3m2!1sko!2skr!4v1703656700488!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="footerInner">
@@ -321,14 +333,14 @@
                 disableOnInteraction: false,
             },
         });
-        $(function(){
-    $("nav>ul>li").mouseenter(function(){
-        $(".submenu").slideDown(200);
-    });
-    $("nav>ul>li").mouseleave(function(){
-        $(".submenu").slideUp(200);
-    });
-});
+        $(function () {
+            $("nav>ul>li").mouseenter(function () {
+                $(".submenu").slideDown(200);
+            });
+            $("nav>ul>li").mouseleave(function () {
+                $(".submenu").slideUp(200);
+            });
+        });
         $(function () {
             $(".banner_slider").slick({
                 autoplay: true,
@@ -358,4 +370,5 @@
         });
     </script>
 </body>
+
 </html>
