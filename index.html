@@ -321,6 +321,14 @@
                 disableOnInteraction: false,
             },
         });
+        $(function(){
+    $("nav>ul>li").mouseenter(function(){
+        $(".submenu").slideDown(200);
+    });
+    $("nav>ul>li").mouseleave(function(){
+        $(".submenu").slideUp(200);
+    });
+});
         $(function () {
             $(".banner_slider").slick({
                 autoplay: true,
